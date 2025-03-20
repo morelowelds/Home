@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black/50 backdrop-blur-[2px]" />
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-8 leading-tight">
-          SOLUCIONES EN SOLDADURA PARA
+          SOLUCIONES EN SOLDADURA
           <span className="block mt-2 bg-gradient-to-r from-blue-500 to-blue-700 text-transparent bg-clip-text">
             Para pequeñas, medianas y grandes industrias
           </span>
