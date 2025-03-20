@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 15s linear infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #2563eb !important;
+  background: rgba(255, 255, 255, 0.9) !important;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 1.2rem !important;
+}
+
+.swiper-pagination-bullet {
+  width: 10px !important;
+  height: 10px !important;
+  background: rgba(37, 99, 235, 0.5) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #2563eb !important;
+  transform: scale(1.2) !important;
+}
+
+body {
+  background: linear-gradient(to right, #1a1a1a, #2d2d2d);
+  color: #ffffff;
+}
+
+.bg-gradient-overlay {
+  background: linear-gradient(45deg, rgba(0,0,0,0.7), rgba(0,0,0,0.5));
+}
